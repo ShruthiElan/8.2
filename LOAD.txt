@@ -1,0 +1,3 @@
+
+A = load '/home/acadgild/StudentDS.txt' USING PigStorage (',') AS (name:chararray,col:chararray,dob:chararray,stream:chararray,
+    grade:float,state:chararray,city:chararray);

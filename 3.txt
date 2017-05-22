@@ -1,0 +1,3 @@
+B = filter A BY (col == 'government');
+C = GROUP B BY col;
+D = FOREACH C GENERATE COUNT(B.col);

@@ -1,0 +1,3 @@
+B = filter A by grade < 5.0F;
+C = group B ALL;
+D = foreach C GENERATE COUNT(B.name);

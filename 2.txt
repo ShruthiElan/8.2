@@ -1,0 +1,3 @@
+B = filter A BY (state == 'alaska');
+C = GROUP B BY name;
+D = FOREACH C GENERATE FLATTEN(B.name);
